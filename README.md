@@ -1,43 +1,42 @@
-# 📊 차트보드 (ChartBoard)
+# 📊 ChartBoard
 
-## 📢 서비스 한줄 소개  
-**ChartBoard** — SQL 쿼리 결과를 다양한 차트로 시각화하고, 대시보드에서 차트들을 한눈에 조회하는 데이터 시각화 웹 서비스
+## 📢 Introduction 
+**ChartBoard** — A data visualization web service that transforms SQL query results into various charts and manages them at a glance through customizable dashboards.
 
 <img width="1639" height="760" alt="image" src="https://github.com/user-attachments/assets/0c86c8af-7048-4979-83a6-59edc9d8af8b" />
 
 
-## 📝 서비스 소개  
-**ChartBoard**는 사용자가 입력한 SQL 쿼리 결과를 **다양한 형태의 차트로 시각화**하고, 이를 대시보드에 추가하여 데이터를 직관적으로 관리할 수 있도록 돕는 데이터 시각화 도구입니다.
+## 📝 Service Overview
+ChartBoard is a data visualization tool designed to help users manage data intuitively. By inputting SQL queries, users can visualize results in various chart formats and add them to personalized dashboards for efficient data monitoring.
 
 
 
+## 👥 Developer
 
-## 👥 개발자 소개
-
-| 이름   | 역할         |
+| Name   | Role         |
 |--------|--------------|
-| 곽채연 | Frontend 개발, Backend 개발 |
+| Chaeyeon Kwak | Full-stack development |
 
 
-## 🛠 기술 스택
+## 🛠 Tech Stack
 
 - **Frontend**: React, TypeScript  
 - **Backend**: Spring Boot  
 - **Database**: MariaDB  
 
 
-## 📁 주요 파일 구조
+## 📁 Key File Structure
 ```
 chartboardproject/
 ├── public/
-│ └── (로고 이미지)
+│ └── (Logo Images)
 │
 ├── src/
 │ ├── api/
 │ │ └── chartboardApi.ts
 │ │
 │ ├── assets/
-│ │ └── (로고 이미지)
+│ │ └── (Logo Images)
 │ │
 │ ├── layouts/
 │ │ └── ChartBoardLayout.tsx
@@ -71,35 +70,35 @@ chartboardproject/
 ```
 
 
-## 📌 주요 기능
+## 📌 Key Features
 
-### ✅ SQL 쿼리 실행
-- SELECT문 입력 → 쿼리 실행 결과를 테이블과 다양한 차트(bar, line, scatter)로 시각화
-- 차트 저장 가능
+### ✅ SQL Query Execution
+- Input SELECT statements: Instantly visualize query results via tables and various chart types (Bar, Line, Scatter).
+- Save Charts: Store generated charts for future use.
 
-### 📋 대시보드 관리
-- 생성된 차트를 대시보드에 배치
-- **드래그 & 리사이즈**로 차트 위치와 크기 조정 가능
+### 📋 Dashboard Management
+- Organize: Place saved charts onto a centralized dashboard.
+- Customization: Adjust chart positions and sizes using Drag & Resize functionality.
 
 
 
-## 🚀 시작 방법 (로컬 실행)
-⚙️ 백엔드 서버도 함께 실행되어 있어야 데이터가 정상 출력됩니다.
+## 🚀 Getting Started (Local Execution)
+⚙️ The backend server must be running simultaneously for data to be displayed correctly.
 
 ```bash
-# 프로젝트 클론
+# Clone the repository
 git clone https://github.com/kwak513/chart-board-front.git
 
-# 디렉토리 이동
+# Navigate to the directory
 cd chart-board-front
 
-# 패키지 설치
+# Install dependencies
 npm install
 
-# 개발 서버 실행
+# Run the development server
 npm run dev
 ```
-## 🧩 관련 레포지토리
+## 🧩 Related Repositories
 **Backend**: [Link to Backend Repo](https://github.com/kwak513/chart-board-back)
 
 
