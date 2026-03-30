@@ -5,7 +5,6 @@
 
 <img width="1639" height="760" alt="image" src="https://github.com/user-attachments/assets/0c86c8af-7048-4979-83a6-59edc9d8af8b" />
 
-![BI Tool dashboard gif](https://github.com/user-attachments/assets/803b6419-5488-4538-8030-2de71687bbe7)
 
 ## 📝 Service Overview
 ChartBoard is a data visualization tool designed to help users manage data intuitively. By inputting SQL queries, users can visualize results in various chart formats and add them to personalized dashboards for efficient data monitoring.
@@ -81,7 +80,7 @@ chartboardproject/
 - Organize: Place saved charts onto a centralized dashboard.
 - Customization: Adjust chart positions and sizes using Drag & Resize functionality.
 
-
+![BI Tool dashboard gif](https://github.com/user-attachments/assets/803b6419-5488-4538-8030-2de71687bbe7)
 
 ## 🚀 Getting Started (Local Execution)
 ⚙️ The backend server must be running simultaneously for data to be displayed correctly.
