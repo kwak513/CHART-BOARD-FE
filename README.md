@@ -5,6 +5,7 @@
 
 <img width="1639" height="760" alt="image" src="https://github.com/user-attachments/assets/0c86c8af-7048-4979-83a6-59edc9d8af8b" />
 
+![BI Tool dashboard gif](https://github.com/user-attachments/assets/803b6419-5488-4538-8030-2de71687bbe7)
 
 ## 📝 Service Overview
 ChartBoard is a data visualization tool designed to help users manage data intuitively. By inputting SQL queries, users can visualize results in various chart formats and add them to personalized dashboards for efficient data monitoring.
